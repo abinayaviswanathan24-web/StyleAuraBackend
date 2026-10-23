@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/orders")
 @CrossOrigin(origins = {
-    "http://localhost:5173",
-    "http://localhost:3000"
-})
+	    "http://localhost:5173",
+	    "http://localhost:3000",
+	    "https://styleaura-2jle.onrender.com"
+	})
 public class OrderController {
 
     private final OrderRepository orderRepository;
